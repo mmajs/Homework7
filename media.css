@@ -1,0 +1,182 @@
+
+.menu-burger{
+    display: none;
+}
+@media (max-width: 1200px){
+    .tea {
+        gap: 0;
+    }
+    .wantone{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: none;
+    }
+
+    .menu-burger {
+        display: block;
+        background-color: black;
+        width: 40px;
+        height: 4px;
+        position: relative;
+        margin: 0 50px;
+    }
+
+    .menu-burger::before,
+    .menu-burger::after
+    {
+        content: '';
+        display: inline-block;
+        background-color: black;
+        width: 40px;
+        height: 4px;
+        position: absolute;
+    }
+
+    .menu-burger::before{
+        top: 8px;
+    }
+    .menu-burger::after{
+        top: -8px;
+    }
+
+    .textplantationCup{
+        margin-left: 0;
+
+    }
+    .textplantationTea{
+        margin-left: 0;
+
+    }
+    .tea {
+        flex-wrap: wrap;
+    }
+    .textsays {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .wecard {
+        flex-wrap: wrap;
+    }
+
+    .wantone{
+        text-align: center;
+        gap: 10px;
+    }
+    .wantJoin {
+        margin-top:  0;
+    }
+
+    .dragomir {
+        max-width: 170px;
+    }
+
+    .touch {
+        text-align: left;
+    }
+    .please{
+        text-align: left;
+    }
+    .journeys{
+        flex: 50%;
+        position: absolute;
+        padding: 10px 20px 20px 420px;
+    }
+    .stay {
+        margin-top: 150px;
+        flex: 50%;
+    }
+}
+
+
+@media (max-width: 480px){
+    .textplantationCup {
+        font-size: 40px;
+    }
+    .text {
+        max-width: 376px;
+        font-size: 16px;
+    }
+
+    .textsays {
+        gap: 20px;
+    }
+    .textsaynamesay{
+        max-width: 200px;
+    }
+
+    .footerone{
+        flex-wrap: wrap;
+    }
+
+    .stay {
+        position: relative;
+    }
+
+    .f{
+        position: absolute;
+        gap: 20px;
+        margin-top: 180px;
+        margin-left: 280px;
+    }
+
+    .cop{
+        gap: 170px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .cards {
+        row-gap: 67px;
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 999.98px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+
+    /* 9th of November */
+    .card:nth-child(even) {
+        margin-left: 98px;
+    }
+}
+
+/* cards */
+/* padding: 0 49px; */
+/* потом обнулить */
+
+@media (max-width: 540px) {
+    .card:nth-child(even) {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 424.8px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .cards {
+        padding: 0 30px;
+    }
+
+    .card {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .card:nth-child(3),
+    .card:nth-child(4) {
+        display: none;
+    }
+}

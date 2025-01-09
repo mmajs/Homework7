@@ -1,0 +1,451 @@
+a {
+    color: #151618;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 65px 0;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.case {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.lens {
+    padding: 40px;
+}
+
+.plantation {
+    background: url(./images/plantation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 254px 0 48px 0;
+}
+
+.textplantationCup {
+    margin-left: 13%;
+    max-width: 798px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: white;
+}
+
+.textplantationTea {
+    margin-left: 13%;
+    max-width: 557px;
+    font-size: 24px;
+    color: white;
+}
+
+.text{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 150px 0;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+.teas {
+    padding: 0 0 60px 0;
+}
+
+.textCollections {
+    font-size: 40px;
+    text-align: center;
+}
+
+.tea {
+    display:flex;
+    justify-content: center;
+    padding: 60px 0;
+    font-size: 24px;
+    text-align: center;
+    gap: 40px;
+    flex-shrink: 1;
+}
+
+.say {
+    padding: 60px 0;
+    background-color: #f7f2ea;
+}
+
+.says {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.textsays {
+    display:flex;
+    gap: 26px;
+    justify-content: center;
+}
+
+.textsay {
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Open Sans';
+    max-width: 280px;
+    margin-bottom: 15px;
+}
+
+.namesay {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.tea-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 15px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 1.21;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 58px;
+    margin-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    flex: 0 1 47%;
+    /* max-width: 542px; */
+}
+
+.picture {
+    min-width: 270px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 1.21;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.author {
+    flex: auto;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.36;
+}
+
+.link {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.36;
+    display: inline-block;
+    color: #151618;
+}
+
+.link::after {
+    display: inline-block;
+    content: '';
+    width: 5px;
+    height: 10px;
+    background: url('./images/icon.svg') 100% / cover no-repeat;
+    margin-left: 8px;
+    transition: all 0.3s ease 0s;
+}
+
+.link:hover::after {
+    transform: translateX(8px);
+}
+
+.view-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.36;
+    border: 1px solid #151618;
+    background-color: white;
+    margin: 0 auto;
+    padding: 12px 41px;
+}
+
+.want {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(./images/tea.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-color: #f7f2ea;
+}
+
+.wantone{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    gap: 10px;
+}
+
+.wanttu {
+    flex: 50%;
+}
+
+.textwant {
+    font-size: 40px;
+}
+
+.textjoin{
+    margin: 50px 0;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+}
+
+.wantJoin {
+    flex: 50%;
+    margin-top: 90px;
+}
+
+.wantinput input[type="email"]{
+    max-width: 700px;
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    font-family: 'Open Sans';
+    border-bottom: 1px solid #B8B58B;
+}
+
+.wantbutton {
+
+    font-family: 'Open Sans';
+    font-size: 20px;
+    border: 1px solid #151618;
+    background-color: white;
+    padding: 12px 41px;
+}
+
+.informcheckbox {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.information {
+    font-size:13px;
+    font-family: 'Open Sans';
+    line-height: 1.3;
+}
+
+.we {
+    padding: 150px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.we-pr {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.wecard {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans';
+    gap: 40px;
+}
+
+.wetext {
+    padding: 40px 0 0 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.wetext2 {
+    padding: 20px 0 50px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #f7f2ea;
+
+}
+.footerone{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    gap: 30px;
+
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    text-align: left;
+    gap: 50px;
+
+}
+.product{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.productlist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.companys {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    text-align: left;
+    gap: 50px;
+}
+.company{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.companylist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.journeys{
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    font-family: 'Open Sans';
+    padding: 79px 0 0 0;
+    gap: 10px;
+}
+.journey {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.dragomir {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.stay {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+}
+
+.touch {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.please {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    padding: 55px 0 0 0;
+}
+
+.tea-f {
+    display: flex;
+    padding: 20px 0 0 0;
+    gap: 40px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.tel {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 0 0;
+    gap: 10px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 0 0;
+    gap: 10px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+
+.f {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+.cop {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-top: 100px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 18px;
+}
+
+.visa {
+    letter-spacing: 20px;
+}
